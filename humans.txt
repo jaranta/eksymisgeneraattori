@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jonne Arjoranta -- developer -- @jaranta
+
+# THANKS
+
+    Harry Giles for letting me use Autoflaneur.
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Tracery
