@@ -95,7 +95,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+.main {
+    padding: 10%;
+    text-align: center;
+}
 
 
 
