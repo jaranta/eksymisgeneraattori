@@ -1,328 +1,389 @@
 var autoflaneur = {
-    "origin": [
-        "#walk#.",
-        "#walk#.",
-        "#walk#.",
-        "#walk#.",
-        "#walk#.",
-        "#find#.",
-        "#find#.",
-        "#other#.",
-        "#verb#.",
-        "#verb#.",
-        "#walk#.",
-        "#walk#.",
-        "#walk#.",
-        "#walk#.",
-        "#walk#.",
-        "#find#.",
-        "#find#.",
-        "#other#.",
-        "#verb#.",
-        "#verb#.",
-        "#consider#."
+    "aloitus": [
+        "#kävele#.",
+        "#kävele#.",
+        "#kävele#.",
+        "#kävele#.",
+        "#kävele#.",
+        "#etsi#.",
+        "#etsi#.",
+        "#muu#.",
+        "#verbi#.",
+        "#verbi#.",
+        "#kävele#.",
+        "#kävele#.",
+        "#kävele#.",
+        "#kävele#.",
+        "#kävele#.",
+        "#etsi#.",
+        "#etsi#.",
+        "#muu#.",
+        "#verbi#.",
+        "#verbi#.",
+        "#pohdi#."
     ],
-    "walk": [
-        "Take the #order# #leftright#",
-        "#walku# #spatial# for #temporal#",
-        "#walku# #spatial# for #temporal#"
+    "kävele": [
+        "Valitse #järjestys# #vasemmallaoikealla#",
+        "#kävelei# #tila# #aika#",
+        "#kävelei# #tila# #aika#"
     ],
-    "find": [
-        "Find the nearest #furniture# and #action#"
+    "etsi": [
+        "Etsi lähin #kaluste# ja #toiminta#"
     ],
-    "order": [
-        "next",
-        "second",
-        "third",
-        "fourth",
-        "fifth"
+    "järjestys": [
+        "seuraava",
+        "toinen",
+        "kolmas",
+        "neljäs",
+        "viides"
     ],
-    "direction": [
-        "north",
-        "south",
-        "east",
-        "west",
-        "northeast",
-        "southeast",
-        "southwest",
-        "northwest"
+    "suunta": [
+        "pohjoiseen",
+        "etelään",
+        "itään",
+        "länteen",
+        "koilliseen",
+        "kaakkoon",
+        "lounaaseen",
+        "luoteeseen"
     ],
-    "spatial": [
-        "#direction#",
-        "#method# #direction#",
-        "#method# #landmark#",
-        "#landmark#",
-        "#method#"
+    "tila": [
+        "#suunta#",
+        "#tapa# #suunta#",
+        "#tapa# #maamerkki#",
+        "#maamerkki#",
+        "#tapa#"
     ],
-    "landmark": [
-        "towards the largest building nearby",
-        "towards the highest visible point",
-        "in the direction of home",
-        "with your back to your home",
-        "towards the sun",
-        "away from the sun",
-        "towards the moon",
-        "away from the moon",
-        "towards the sea",
-        "away from the sea",
-        "against the wind",
-        "with the wind"
+    "maamerkki": [
+        "kohti suurinta lähellä olevaa rakennusta",
+        "kohti korkeinta näkyvää kohtaa",
+        "kodin suuntaan",
+        "selkä kodin suuntaan",
+        "aurinkoa kohti",
+        "poispäin auringosta",
+        "kohti kuuta",
+        "poispäin kuusta",
+        "merta kohti",
+        "poispäin merestä",
+        "tuulta vasten",
+        "tuulen suuntaan"
     ],
-    "method": [
-        "backwards",
-        "sideways",
-        "lightly",
-        "heavily",
-        "quickly",
-        "slowly",
-        "gently",
-        "intensely"
+    "tapa": [
+        "takaperin",
+        "sivuttain",
+        "huolettomasti",
+        "raskaasti",
+        "nopeasti",
+        "hitaasti",
+        "kevyesti",
+        "intensiivisesti"
     ],
-    "temporal": [
-        "#time#",
-        "#time#",
-        "#count#",
-        "#distance#",
-        "a while",
-        "a while",
-        "a little while"
+    "aika": [
+        "#aikayksikkö# ajan",
+        "#aikayksikkö# ajan",
+        "#määrä#",
+        "#etäisyys# verran",
+        "hetken ajan",
+        "hetken ajan",
+        "pienen hetken ajan"
     ],
-    "time": [
-        "#number# seconds",
-        "#number# minutes",
-        "#number# minutes",
-        "one hour"
+    "aikayksikkö": [
+        "#numeron# sekuntin",
+        "#numeron# minuutin",
+        "yhden tunnin"
     ],
-    "number": [
-        "two",
-        "three",
-        "four",
-        "five",
-        "six",
-        "seven",
-        "eight",
-        "nine",
-        "ten",
-        "eleven",
-        "twelve",
-        "thirteen",
-        "fourteen",
-        "fifteen",
-        "sixteen",
-        "seventeen",
-        "eighteen",
-        "nineteen",
-        "twenty"
+    "numero": [
+        "kaksi",
+        "kolme",
+        "neljä",
+        "viisi",
+        "kuusi",
+        "seitsemän",
+        "kahdeksan",
+        "yhdeksän",
+        "kymmenen",
+        "yksitoista",
+        "kaksitoista",
+        "kolmetoista",
+        "neljätoista",
+        "viisitoista",
+        "kuusitoista",
+        "seitsemäntoista",
+        "kahdeksantoista",
+        "yhdeksäntoista",
+        "kaksikymmentä"
     ],
-    "smallnumber": [
-        "two",
-        "three",
-        "four",
-        "five"
+    "numeron": [
+        "kahden",
+        "kolmen",
+        "neljän",
+        "viiden",
+        "kuuden",
+        "seitsemän",
+        "kahdeksan",
+        "yhdeksän",
+        "kymmenen",
+        "yhdentoista",
+        "kahdentoista",
+        "kolmentoista",
+        "neljäntoista",
+        "viidentoista",
+        "kuudentoista",
+        "seitsemäntoista",
+        "kahdeksantoista",
+        "yhdeksäntoista",
+        "kahdenkymmenen"
     ],
-    "largenumber": [
-        "ten",
-        "fifteen",
-        "twenty",
-        "thirty",
-        "thirty",
-        "fifty",
-        "eighty-five",
-        "one hundred"
+    "numeroon": [
+        "kahteen",
+        "kolmeen",
+        "neljään",
+        "viiteen",
+        "kuuteen",
+        "seitsemään",
+        "kahdeksaan",
+        "yhdeksään",
+        "kymmeneen",
+        "yhteentoista",
+        "kahteentoista",
+        "kolmeentoista",
+        "neljääntoista",
+        "viiteentoista",
+        "kuusteentoista",
+        "seitsemääntoista",
+        "kahdeksaantoista",
+        "yhdeksääntoista",
+        "kahteenkymmeneen"
     ],
-    "count": [
-        "the count of #number#"
+    "pieninumero": [
+        "kaksi",
+        "kolme",
+        "neljä",
+        "viisi"
     ],
-    "distance": [
-        "#number# metres",
-        "#number# metres",
-        "#smallnumber# miles",
-        "#largenumber# steps"
+    "pieninumeron": [
+        "kahden",
+        "kolmen",
+        "neljän",
+        "viiden"
     ],
-    "leftright": [
-        "left",
-        "right"
+    "suurinumero": [
+        "kymmenen",
+        "viisitoista",
+        "kaksikymmentä",
+        "kolmekymmentä",
+        "kolmekymmentä",
+        "viisikymmentä",
+        "kahdeksankymmentäviisi",
+        "sata"
     ],
-    "other": [
-        "Get on the next bus you can, and get off after #number# stops",
-        "Explore the first alley you meet for #time#. When you leave, turn #leftright#",
-        "Explore the first alley you meet. When you leave, turn #leftright#",
-        "Take the most #updown# route for #temporal#",
-        "Close your eyes for #count#. Identify the #loudsoft# sound. Now #walkl# #tofrom# it",
-        "Enter the nearest cafe, order the drink you are #mostleast# likely to enjoy, and find a comfortable place to drink it",
-        "Find the nearest bird, then follow it for #temporal# or until you lose it, whichever comes sooner",
-        "Enter the nearest shop that sells scratchcards and buy the #cheapdear#. Scratch it",
-        "#position# where you are and watch #visible# for #time#",
-        "If you feel #posfeeling#, turn left. If you feel #negfeeling#, turn right. If neither, #alturnative#",
-        "Find the nearest newsagent, buy #paper#, read it #reading#, then leave it with a note"
+    "määrä": [
+        "laskien #numeroon#"
     ],
-    "updown": [
-        "uphill",
-        "downhill"
+    "etäisyys": [
+        "#numero# metrin",
+        "#numero# metrin",
+        "#pieninumero# kilometrin",
+        "#suurinumero# askelen"
     ],
-    "loudsoft": [
-        "loudest",
-        "softest"
+    "vasenoikea": [
+        "vasen",
+        "oikea"
     ],
-    "tofrom": [
-        "towards",
-        "away from"
+    "vasemmalleoikealle": [
+        "vasemmalle",
+        "oikealle"
     ],
-    "mostleast": [
-        "most",
-        "least"
+    "vasemmallaoikealla": [
+        "vasemmalla",
+        "oikealla"
     ],
-    "cheapdear": [
-        "cheapest",
-        "most expensive"
+    "muu": [
+        "Nouse seuraavaan mahdolliseen bussiin ja nouse bussista #pieninumeron# pysäkin jälkeen",
+        "Tutki seuraavaa kohtaamaasi kujaa #aikayksikkö# ajan. Kun lähdet, käänny #vasemmalleoikealle#",
+        "Tutki seuraavaa kohtaamaasi kujaa. Kun lähdet, käänny #vasemmalleoikealle#",
+        "Kulje #ylösalas# #aika#",
+        "Sulje silmäsi #määrä#. Tunnista #äänekäshiljainen# ääni. #kävelei# #kohtipois#",
+        "Mene lähimpään kahvilaan, tilaa juoma josta todennäköisesti nautit #enitenvähiten# ja etsi mukava paikka juoda se",
+        "Etsi lähin lintu, seuraa sitä #aika# tai kunnes hukkaat sen",
+        "Mene lähimpään kauppaan, joka myy raaputusarpoja ja osta #halpakallis#. Raaputa se",
+        "#asento# nykyisellä paikallasi ja katso #näkyvä# #aikayksikkö#",
+        "Jos tunnet olosi #postunne#, käänny vasemmalle. Jos tunnet olosi #negtunne#, käänny oikealle. Jos et tunne oloasi kummaksikaan, #vaihtoehto#",
+        "Etsi lähin kioski, osta #lehti#, lue sitä #lukeminen#, ja jätä se viestin kanssa"
     ],
-    "position": [
-        "Sit",
-        "Stand",
-        "Lie down",
-        "Kneel",
-        "Sit",
-        "Stand",
-        "Stand"
+    "ylösalas": [
+        "ylämäkeen",
+        "alamäkeen"
     ],
-    "visible": [
-        "the sky",
-        "the passers by",
-        "the clouds",
-        "the buildings",
-        "the ground",
-        "the wildlife",
-        "the plants"
+    "äänekäshiljainen": [
+        "äänekkäin",
+        "hiljaisin"
     ],
-    "posfeeling": [
-        "happy",
-        "calm",
-        "delighted",
-        "exhilarated",
-        "optimistic",
-        "open"
+    "kohtipois": [
+        "kohti sitä",
+        "poispäin siitä"
     ],
-    "negfeeling": [
-        "sad",
-        "anxious",
-        "dispirited",
-        "frustrated",
-        "pessimistic",
-        "closed"
+    "enitenvähiten": [
+        "eniten",
+        "vähiten"
     ],
-    "alturnative": [
-        "keep going",
-        "wait",
-        "wait until you do",
-        "breathe, then keep going"
+    "halpakallis": [
+        "halvin",
+        "kallein"
     ],
-    "paper": [
-        "your favourite newspaper",
-        "a newspaper you'd never usually read",
-        "a newspaper you disagree with"
+    "asento": [
+        "Istu",
+        "Seiso",
+        "Käy makuulleen",
+        "Polvistu",
+        "Istu",
+        "Seiso",
+        "Seiso"
     ],
-    "reading": [
-        "for #number# minutes",
-        "for #number# pages"
+    "näkyvä": [
+        "taivasta",
+        "ohikulkijoita",
+        "pilviä",
+        "rakennuksia",
+        "maata",
+        "eläimiä",
+        "kasveja"
     ],
-    "furniture": [
-        "wall",
-        "manhole cover",
-        "seat",
-        "paving slab",
-        "building",
-        "lamppost",
-        "traffic light",
-        "bench",
-        "wall"
+    "postunne": [
+        "onnelliseksi",
+        "rauhalliseksi",
+        "iloiseksi",
+        "virkeäksi",
+        "optimistiseksi",
+        "avoimeksi"
     ],
-    "action": [
-        "take a rubbing of it",
-        "sketch it",
-        "draw it",
-        "touch it for #smallnumber# minutes",
-        "say hello",
-        "draw it",
-        "write down a description",
-        "write down a description",
-        "take a rubbing of it",
-        "write a poem about it",
-        "wait there watching the world pass for #time#"
+    "negtunne": [
+        "surulliseksi",
+        "ahdistuneeksi",
+        "lannistuneeksi",
+        "turhautuneeksi",
+        "pessimistiseksi",
+        "sulkeutuneeksi"
     ],
-    "verb": [
-        "Walk",
-        "Wait",
-        "Pause",
-        "Breathe",
-        "Look",
-        "Watch",
-        "Walk",
-        "Run"
+    "vaihtoehto": [
+        "jatka matkaa",
+        "odota",
+        "odota kunnes sinusta tuntuu siltä",
+        "hengitä ja jatka sitten matkaa"
     ],
-    "walku": [
-        "Walk",
-        "Go",
-        "Travel",
-        "Head",
-        "Go",
-        "Go",
-        "Go",
-        "Travel",
-        "Head",
-        "Meander",
-        "Wheel",
-        "Roll",
-        "Cruise",
-        "Journey",
-        "Proceed",
-        "Proceed",
-        "Wander",
-        "Jaunt",
-        "Wend",
-        "Crawl",
-        "Fly"],
-    "walkl": [
-        "walk",
-        "go",
-        "travel",
-        "head",
-        "go",
-        "go",
-        "go",
-        "travel",
-        "head",
-        "meander",
-        "wheel",
-        "roll",
-        "cruise",
-        "journey",
-        "proceed",
-        "proceed",
-        "wander",
-        "jaunt",
-        "wend",
-        "crawl",
-        "fly"],
-    "consider": [
-        "Consider #question# you are. Should you be here? Do you want to be here? If not, #keepgo#",
-        "Consider #question# you are. Should you be here? Do you want to be here? If not, #keepgo#",
-        "Consider #question# you are. Should you be here? Do you want to be here? If not, #keepgo#",
-        "Consider what the people around you might be thinking. Decide if you want to keep going",
-        "Consider your clothes. If you wish you were wearing something different,#keepgo#",
-        "Consider your safety. Do you feel safe? If not, #keepgo#",
-        "Disobey #thisnext# instruction"],
-    "question": [
-        "where",
-        "where",
-        "where",
-        "who",
-        "who",
-        "why"],
-    "keepgo": [
-        "keep going",
-        "go back"],
-    "thisnext": [
-        "this",
-        "the next",
-        "the next"]
+    "lehti": [
+        "lempi sanomalehtesi",
+        "sanomalehti, jota et yleensä lukisi",
+        "sanomalehti, jonka kanssa olet eri mieltä"
+    ],
+    "lukeminen": [
+        "#numero# minuuttia",
+        "#numero# sivua"
+    ],
+    "kaluste": [
+        "seinä",
+        "viemärinkansi",
+        "istuin",
+        "katulaatta",
+        "rakennus",
+        "katulamppu",
+        "liikennevalo",
+        "penkki",
+        "seinä"
+    ],
+    "toiminta": [
+        "ota siitä hankausjäljennös",
+        "ota siitä hankausjäljennös",
+        "luonnostele se",
+        "piirrä se",
+        "kosketa sitä #pieninumero# minuuttia",
+        "tervehdi sitä",
+        "piirrä se",
+        "kirjoita siitä kuvaus",
+        "kirjoita siitä kuvaus",
+        "kirjoita siitä runo",
+        "odota katsellen maailman menoa #aikayksikkö# ajan"
+    ],
+    "verbi": [
+        "Kävele",
+        "Odota",
+        "Pysähdy",
+        "Hengitä",
+        "Katso",
+        "Tarkkaile",
+        "Kävele",
+        "Juokse"
+    ],
+    "kävelei": [
+        "Kävele",
+        "Mene",
+        "Matkaa",
+        "Suuntaa",
+        "Mene",
+        "Mene",
+        "Mene",
+        "Matkaa",
+        "Suuntaa",
+        "Kuljeskele",
+        "Kaartele",
+        "Pyöri",
+        "Ajelehdi",
+        "Matkaa",
+        "Etene",
+        "Etene",
+        "Vaeltele",
+        "Pyrähdä",
+        "Lähde",
+        "Ryömi",
+        "Liidä"
+    ],
+    "kävelep": [
+        "kävele",
+        "mene",
+        "matkaa",
+        "suuntaa",
+        "mene",
+        "mene",
+        "mene",
+        "matkaa",
+        "suuntaa",
+        "kaarteile",
+        "pyöri",
+        "kiertele",
+        "ajelehdi",
+        "matkaa",
+        "etene",
+        "etene",
+        "vaeltele",
+        "pyrähdä",
+        "lähde",
+        "ryömi",
+        "liidä"
+    ],
+    "pohdi": [
+        "Pohdi #kysymys# olet. Pitäisikö sinun olla täällä? Haluatko olla täällä? Jos et, #menepalaa#",
+        "Pohdi #kysymys# olet. Pitäisikö sinun olla täällä? Haluatko olla täällä? Jos et, #menepalaa#",
+        "Pohdi #kysymys# olet. Pitäisikö sinun olla täällä? Haluatko olla täällä? Jos et, #menepalaa#",
+        "Pohdi mitä ihmiset ympärilläsi saattaisivat ajatella. Päätä haluatko jatkaa matkaa",
+        "Pohdi vaatteitasi. Jos toivot, että olisit pukeutunut toisin, #menepalaa#",
+        "Pohdi turvallisuutta. Tunnetuko olosi turvalliseksi? Jos et, #menepalaa#",
+        "Ole tottelematta #tämäseuraava# ohjetta"
+    ],
+    "kysymys": [
+        "missä",
+        "missä",
+        "missä",
+        "kuka",
+        "kuka",
+        "miksi"
+    ],
+    "menepalaa": [
+        "jatka matkaa",
+        "mene takaisin"
+    ],
+    "tämäseuraava": [
+        "tätä",
+        "seuraavaa",
+        "seuraavaa"
+    ]
 };
