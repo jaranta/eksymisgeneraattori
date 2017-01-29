@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -11,6 +11,7 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -22,7 +23,10 @@
         <!-- Add your site or application content here -->
         <div class="main">
             <p id="generatedText">Not all who wander are lost.</p>
-            <button onclick="generateText()">Generate new</button>
+            <button id="generateButton" onclick="generateText()">Generate new</button>
+        </div>
+        <div class="footer">
+            <p class="about">An adaptation of <a href="https://harrygiles.org/autoflaneur/">Autoflâneur</a> made by <a href="humans.txt">humans.</a> <a href="LICENSE.txt">CC BY-NC-SA 4.0.</a></p>
         </div>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
