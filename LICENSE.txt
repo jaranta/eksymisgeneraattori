@@ -1,4 +1,8 @@
-TODO: Choose license
+Wandering generator CC BY-NC-SA 4.0 Jonne Arjoranta
+
+Wandering generator is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ------------------------------
 
