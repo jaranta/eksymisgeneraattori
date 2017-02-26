@@ -149,7 +149,7 @@ var autoflaneur = {
         "kolmeentoista",
         "neljääntoista",
         "viiteentoista",
-        "kuusteentoista",
+        "kuuteentoista",
         "seitsemääntoista",
         "kahdeksaantoista",
         "yhdeksääntoista",
@@ -177,14 +177,23 @@ var autoflaneur = {
         "kahdeksankymmentäviisi",
         "sata"
     ],
+    "suurinumeron": [
+        "kymmenen",
+        "viidentoista",
+        "kahdenkymmenen",
+        "kolmenkymmenen",
+        "viidenkymmenen",
+        "kahdeksankymmenen",
+        "sadan"
+    ],
     "määrä": [
         "laskien #numeroon#"
     ],
     "etäisyys": [
-        "#numero# metrin",
-        "#numero# metrin",
-        "#pieninumero# kilometrin",
-        "#suurinumero# askelen"
+        "#numeron# metrin",
+        "#numeron# metrin",
+        "#pieninumeron# kilometrin",
+        "#suurinumeron# askelen"
     ],
     "vasenoikea": [
         "vasen",
