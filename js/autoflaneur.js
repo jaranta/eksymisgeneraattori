@@ -89,8 +89,7 @@ var autoflaneur = {
     ],
     "aikayksikkö": [
         "#numeron# sekuntin",
-        "#numeron# minuutin",
-        "yhden tunnin"
+        "#pieninumeron# minuutin",
     ],
     "numero": [
         "kaksi",
@@ -192,7 +191,6 @@ var autoflaneur = {
     "etäisyys": [
         "#numeron# metrin",
         "#numeron# metrin",
-        "#pieninumeron# kilometrin",
         "#suurinumeron# askelen"
     ],
     "vasenoikea": [
