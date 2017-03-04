@@ -375,7 +375,7 @@ var autoflaneur = {
         "Pohdi #kysymys# olet. Pitäisikö sinun olla täällä? Haluatko olla täällä? Jos et, #menepalaa#",
         "Pohdi mitä ihmiset ympärilläsi saattaisivat ajatella. Päätä haluatko jatkaa matkaa",
         "Pohdi vaatteitasi. Jos toivot, että olisit pukeutunut toisin, #menepalaa#",
-        "Pohdi turvallisuutta. Tunnetuko olosi turvalliseksi? Jos et, #menepalaa#",
+        "Pohdi turvallisuuttasi. Tunnetko olosi turvalliseksi? Jos et, #menepalaa#",
         "Ole tottelematta #tämäseuraava# ohjetta"
     ],
     "kysymys": [
