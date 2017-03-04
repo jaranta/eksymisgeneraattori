@@ -63,8 +63,8 @@ var autoflaneur = {
         "poispäin auringosta",
         "kohti kuuta",
         "poispäin kuusta",
-        "merta kohti",
-        "poispäin merestä",
+        "järveä kohti",
+        "poispäin järvestä",
         "tuulta vasten",
         "tuulen suuntaan"
     ],
@@ -206,17 +206,13 @@ var autoflaneur = {
         "oikealla"
     ],
     "muu": [
-        "Nouse seuraavaan mahdolliseen bussiin ja nouse bussista #pieninumeron# pysäkin jälkeen",
         "Tutki seuraavaa kohtaamaasi kujaa #aikayksikkö# ajan. Kun lähdet, käänny #vasemmalleoikealle#",
         "Tutki seuraavaa kohtaamaasi kujaa. Kun lähdet, käänny #vasemmalleoikealle#",
         "Kulje #ylösalas# #aika#",
         "Sulje silmäsi #määrä#. Tunnista #äänekäshiljainen# ääni. #kävelei# #kohtipois#",
-        "Mene lähimpään kahvilaan, tilaa juoma josta todennäköisesti nautit #enitenvähiten# ja etsi mukava paikka juoda se",
         "Etsi lähin lintu, seuraa sitä #aika# tai kunnes hukkaat sen",
-        "Mene lähimpään kauppaan, joka myy raaputusarpoja ja osta #halpakallis#. Raaputa se",
         "#asento# nykyisellä paikallasi ja katso #näkyvä# #aikayksikkö#",
         "Jos tunnet olosi #postunne#, käänny vasemmalle. Jos tunnet olosi #negtunne#, käänny oikealle. Jos et tunne oloasi kummaksikaan, #vaihtoehto#",
-        "Etsi lähin kioski, osta #lehti#, lue sitä #lukeminen#, ja jätä se viestin kanssa"
     ],
     "ylösalas": [
         "ylämäkeen",
@@ -233,10 +229,6 @@ var autoflaneur = {
     "enitenvähiten": [
         "eniten",
         "vähiten"
-    ],
-    "halpakallis": [
-        "halvin",
-        "kallein"
     ],
     "asento": [
         "Istu",
@@ -277,15 +269,6 @@ var autoflaneur = {
         "odota",
         "odota kunnes sinusta tuntuu siltä",
         "hengitä ja jatka sitten matkaa"
-    ],
-    "lehti": [
-        "lempi sanomalehtesi",
-        "sanomalehti, jota et yleensä lukisi",
-        "sanomalehti, jonka kanssa olet eri mieltä"
-    ],
-    "lukeminen": [
-        "#numero# minuuttia",
-        "#numero# sivua"
     ],
     "kaluste": [
         "seinä",
