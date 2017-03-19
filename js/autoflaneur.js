@@ -37,19 +37,7 @@ var autoflaneur = {
         "neljäs",
         "viides"
     ],
-    "suunta": [
-        "pohjoiseen",
-        "etelään",
-        "itään",
-        "länteen",
-        "koilliseen",
-        "kaakkoon",
-        "lounaaseen",
-        "luoteeseen"
-    ],
     "tila": [
-        "#suunta#",
-        "#tapa# #suunta#",
         "#tapa# #maamerkki#",
         "#maamerkki#",
         "#tapa#"
@@ -57,16 +45,22 @@ var autoflaneur = {
     "maamerkki": [
         "kohti suurinta lähellä olevaa rakennusta",
         "kohti korkeinta näkyvää kohtaa",
-        "kodin suuntaan",
-        "selkä kodin suuntaan",
         "aurinkoa kohti",
         "poispäin auringosta",
-        "kohti kuuta",
-        "poispäin kuusta",
         "järveä kohti",
         "poispäin järvestä",
         "tuulta vasten",
-        "tuulen suuntaan"
+        "tuulen suuntaan",
+        "kohti #jyväskylämaamerkki"
+    ],
+    "jyväskylämaamerkki": [
+        "veturitalleja",
+        "yläkaupunkia",
+        "Vakiopainetta",
+        "Patinaa",
+        "Ilokiveä",
+        "yliopistoa",
+        "Galleria Beckeriä"
     ],
     "tapa": [
         "takaperin",
