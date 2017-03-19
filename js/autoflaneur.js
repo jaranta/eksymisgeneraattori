@@ -89,7 +89,7 @@ var autoflaneur = {
     ],
     "aikayksikkö": [
         "#numeron# sekuntin",
-        "#pieninumeron# minuutin",
+        "#pieninumeron# minuutin"
     ],
     "numero": [
         "kaksi",
@@ -212,7 +212,7 @@ var autoflaneur = {
         "Sulje silmäsi #määrä#. Tunnista #äänekäshiljainen# ääni. #kävelei# #kohtipois#",
         "Etsi lähin lintu, seuraa sitä #aika# tai kunnes hukkaat sen",
         "#asento# nykyisellä paikallasi ja katso #näkyvä# #aikayksikkö#",
-        "Jos tunnet olosi #postunne#, käänny vasemmalle. Jos tunnet olosi #negtunne#, käänny oikealle. Jos et tunne oloasi kummaksikaan, #vaihtoehto#",
+        "Jos tunnet olosi #postunne#, käänny vasemmalle. Jos tunnet olosi #negtunne#, käänny oikealle. Jos et tunne oloasi kummaksikaan, #vaihtoehto#"
     ],
     "ylösalas": [
         "ylämäkeen",
@@ -295,7 +295,7 @@ var autoflaneur = {
         "odota katsellen maailman menoa #aikayksikkö# ajan"
     ],
     "lähetä": [
-	"lähetä se Twitteriin tunnuksella #eksyin"
+	    "lähetä se Twitteriin tunnuksella #eksyin"
     ],
     "verbi": [
         "Kävele",
