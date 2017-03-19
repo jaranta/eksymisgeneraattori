@@ -115,15 +115,15 @@ a:hover {
 }
 
 .main {
-    padding: 10%;
+    padding: 5%;
     text-align: center;
     font-family: 'Itim', cursive;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 #generateButton {
     position: absolute;
-    top: 60%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -35%);
 }
