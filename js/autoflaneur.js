@@ -282,20 +282,23 @@ var autoflaneur = {
         "seinä"
     ],
     "toiminta": [
-        "ota siitä kuva ja #lähetä#",
-        "ota siitä kuva ja #lähetä#",
-        "luonnostele se ja #lähetä#",
-        "piirrä se ja #lähetä#",
+        "ota siitä kuva. #lähetäkuva#",
+        "ota siitä kuva. #lähetäkuva#",
+        "luonnostele se. #lähetäkuva#",
+        "piirrä se. #lähetäkuva#",
         "kosketa sitä #pieninumero# minuuttia",
         "tervehdi sitä",
-        "piirrä se ja #lähetä#",
-        "kirjoita siitä 140 merkin kuvaus ja #lähetä#",
-        "kirjoita siitä 140 merkin kuvaus ja #lähetä#",
-        "kirjoita siitä 140 merkin runo #lähetä#",
+        "piirrä se. #lähetäkuva#",
+        "kirjoita siitä 140 merkin kuvaus. #lähetäteksti#",
+        "kirjoita siitä 140 merkin kuvaus. #lähetäteksti#",
+        "kirjoita siitä 140 merkin runo. #lähetäteksti#",
         "odota katsellen maailman menoa #aikayksikkö# ajan"
     ],
-    "lähetä": [
-	    "lähetä se Twitteriin tunnuksella #eksyin"
+    "lähetäkuva": [
+	    "Lähetä kuva Twitteriin tai Instagramiin tunnuksella \u2605eksyin"
+    ],
+    "lähetäteksti": [
+	    "Lähetä teksti Twitteriin tai Instagramiin tunnuksella \u2605eksyin"
     ],
     "verbi": [
         "Kävele",
