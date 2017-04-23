@@ -14,7 +14,7 @@ var autoflaneur = {
         "#pohdi#."
     ],
     "kävele": [
-        "Valitse #järjestys# #vasemmallaoikealla#",
+        "Valitse #järjestys# tie #vasemmallaoikealla#",
         "#kävelei# #tila# #aika#",
         "#kävelei# #tila# #aika#"
     ],
@@ -202,7 +202,7 @@ var autoflaneur = {
         "Kulje #ylösalas# #aika#",
         "Sulje silmäsi #määrä#. Tunnista #äänekäshiljainen# ääni. #kävelei# #kohtipois#",
         "Etsi lähin lintu, seuraa sitä #aika# tai kunnes hukkaat sen",
-        "#asento# nykyisellä paikallasi ja katso #näkyvä# #aikayksikkö#",
+        "#asento# nykyisellä paikallasi ja katso #näkyvä# #aikayksikkö# ajan",
         "Jos tunnet olosi #postunne#, käänny vasemmalle. Jos tunnet olosi #negtunne#, käänny oikealle. Jos et tunne oloasi kummaksikaan, #vaihtoehto#",
     ],
     "ylösalas": [
@@ -210,7 +210,7 @@ var autoflaneur = {
         "alamäkeen"
     ],
     "äänekäshiljainen": [
-        "äänekkäin",
+        "voimakkain",
         "hiljaisin"
     ],
     "kohtipois": [
@@ -282,7 +282,7 @@ var autoflaneur = {
         "piirrä se ja #lähetä#",
         "kirjoita siitä 140 merkin kuvaus ja #lähetä#",
         "kirjoita siitä 140 merkin kuvaus ja #lähetä#",
-        "kirjoita siitä 140 merkin runo #lähetä#",
+        "kirjoita siitä 140 merkin runo ja #lähetä#",
         "odota katsellen maailman menoa #aikayksikkö# ajan"
     ],
     "lähetä": [
@@ -317,7 +317,6 @@ var autoflaneur = {
         "Etene",
         "Vaeltele",
         "Pyrähdä",
-        "Lähde",
         "Ryömi",
         "Liidä"
     ],
@@ -348,7 +347,7 @@ var autoflaneur = {
         "Pohdi #kysymys# olet. Pitäisikö sinun olla täällä? Haluatko olla täällä? Jos et, #menepalaa#",
         "Pohdi #kysymys# olet. Pitäisikö sinun olla täällä? Haluatko olla täällä? Jos et, #menepalaa#",
         "Pohdi #kysymys# olet. Pitäisikö sinun olla täällä? Haluatko olla täällä? Jos et, #menepalaa#",
-        "Pohdi mitä ihmiset ympärilläsi saattaisivat ajatella. Päätä haluatko jatkaa matkaa",
+        "Pohdi mitä ihmiset ympärilläsi ajattelevat. Päätä haluatko jatkaa matkaa",
         "Pohdi vaatteitasi. Jos toivot, että olisit pukeutunut toisin, #menepalaa#",
         "Pohdi turvallisuuttasi. Tunnetko olosi turvalliseksi? Jos et, #menepalaa#",
         "Ole tottelematta #tämäseuraava# ohjetta"
